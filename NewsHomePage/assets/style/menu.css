@@ -1,0 +1,30 @@
+#menu-toggle {
+  display: block;
+  cursor: pointer;
+  background-image: url("https://icongr.am/material/menu.svg?size=48&color=currentColor");
+  background-repeat: no-repeat;
+}
+.menu {
+  flex-direction: column;
+  width: 60vw;
+
+  height: 100vh;
+  position: fixed;
+  right: 5%;
+  z-index: 2;
+  background-color: white;
+  padding: 8px 24px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fechar {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: flex-end;
+}

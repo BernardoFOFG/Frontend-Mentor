@@ -8,13 +8,16 @@
 }
 html {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 main {
   max-width: 1360px;
   margin: 0 auto;
 }
-
+#menu-toggle{
+  display: none;
+}
 header {
   display: flex;
   justify-content: space-between;

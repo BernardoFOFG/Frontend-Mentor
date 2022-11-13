@@ -19,7 +19,12 @@
     <link rel="stylesheet" href="./assets/style/main.css" />
     <link rel="stylesheet" href="./assets/style/reset.css" />
     <link rel="stylesheet" href="./assets/style/responsive.css" />
-    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/menu.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Frontend Mentor | News homepage</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -35,6 +40,22 @@
     </style>
   </head>
   <body>
+    <nav id="menu-on" class="menu">
+      <ul>
+        <div class="fechar">
+          <img
+            src="https://icongr.am/material/close.svg?size=64&color=currentColor"
+            alt="Fechar"
+            id="menu-close"
+          />
+        </div>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>New</li></a>
+        <a href="#"><li>Popular</li></a>
+        <a href="#"><li>Trending</li></a>
+        <a href="#"><li>Categories</li></a>
+      </ul>
+    </nav>
     <main>
       <header>
         <img src="./assets/images/logo.svg" alt="" />
@@ -47,6 +68,12 @@
             <a href="#"><li>Categories</li></a>
           </ul>
         </nav>
+
+        <img
+          src="https://icongr.am/material/menu.svg?size=48&color=currentColor"
+          alt="Abrir menu"
+          id="menu-toggle"
+        />
       </header>
 
       <section>
@@ -127,7 +154,10 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="www.github.com/bernardofofg">Bernardo Filipe - BernardoFOFG</a>.
+      >. Coded by
+      <a href="www.github.com/bernardofofg">Bernardo Filipe - BernardoFOFG</a>.
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>

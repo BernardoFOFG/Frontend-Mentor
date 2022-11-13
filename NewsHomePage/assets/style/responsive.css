@@ -6,6 +6,12 @@
     header {
       margin: 40px auto 40px auto;
     }
+    nav {
+      display: none;
+    }
+    #menu-toggle {
+      display: flex;
+    }
     section,
     .section-secundary,
     footer {
