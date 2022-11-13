@@ -38,7 +38,14 @@
     }
   }
 }
-
+@media (min-width: 561px) {
+  #menu-toggle {
+    display: none !important;
+  }
+  .menu {
+    display: none;
+  }
+}
 @media (min-width: 561px) {
   @media (max-width: 768px) {
     main {
