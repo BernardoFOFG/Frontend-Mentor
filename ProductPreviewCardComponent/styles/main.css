@@ -1,0 +1,92 @@
+:root {
+  --dark-cyan: hsl(158, 38%, 37%);
+  --dark-cyan-hover: hsl(158, 36%, 35%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+body {
+  background-color: var(--cream);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 12px;
+
+}
+.container-card {
+  display: flex;
+  background-color: var(--white);
+  border-radius: 16px;
+}
+.container-image img {
+  max-width: 375px;
+  height: 100%;
+  border-radius: 16px 0 0 16px;
+}
+.container-infos {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 375px;
+  margin: 42px 32px;
+}
+.container-infos .product {
+  color: var(--dark-grayish-blue);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+.container-infos h1 {
+  font-size: 52px;
+  font-family: "Fraunces", serif;
+  margin-bottom: 24px;
+}
+.container-infos p {
+  font-size: 18px;
+  color: var(--dark-grayish-blue);
+  font-family: "Montserrat", sans-serif;
+  margin-right: 60px;
+  line-height: 1.5em;
+}
+.container-infos .price {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin: 24px 0;
+}
+.container-infos .price p {
+  text-decoration: line-through;
+}
+.container-infos .price span {
+  font-size: 32px;
+  color: var(--dark-cyan);
+  font-family: "Fraunces", serif;
+}
+.container-infos button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 20px;
+  margin: 0 16px;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-size: 18px;
+  border: 0;
+  border-radius: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.container-infos button:hover {
+  cursor: pointer;
+  background-color: var(--dark-cyan-hover);
+  transition: .2s;
+}
