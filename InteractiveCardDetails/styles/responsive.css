@@ -91,6 +91,10 @@
     form {
       margin-right: 20px;
     }
+    .form-mm-yy,
+    .form-cvc {
+      width: 50%;
+    }
   }
 }
 

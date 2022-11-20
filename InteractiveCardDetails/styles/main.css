@@ -81,7 +81,7 @@ form {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  max-width: 375px;
+  max-width: 400px;
   gap: 8px;
   text-transform: uppercase;
   transition: 0.4s;
