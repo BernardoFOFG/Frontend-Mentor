@@ -4,8 +4,10 @@
 
 #### QR Code Component: Finalizado!
 
-#### News Page Home: https://news-page-home-bernardofofg.vercel.app/
+#### News Page Home: Finalizado!
 
 #### Product Preview Card Component: https://product-preview-card-component-bernardofofg.vercel.app/
 
 #### Interactive Card Details: https://interactive-card-details-bernardofofg.vercel.app/
+
+#### Result Summary Component: https://result-summary-bernardofofg.vercel.app/
