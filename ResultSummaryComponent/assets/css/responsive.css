@@ -5,11 +5,17 @@
             align-items: center;
         }
 
+        .box-result {
+            width: 80%;
+        }
+
         .box-summary {
             padding: 64px 16px 32px 16px;
             left: 0;
             top: -20px;
-            border-radius: 32px
+            border-radius: 32px;
+            width: 80%;
+
         }
 
         .infos-summary {
