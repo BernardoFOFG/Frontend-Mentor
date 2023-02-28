@@ -17,6 +17,7 @@
   --violetBlueGradient: hsla(256, 72%, 46%, 1);
   --persianBlueGradient: hsla(241, 72%, 46%, 0);
 }
+
 body {
   display: flex;
   align-items: center;
@@ -27,17 +28,17 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   background-color: var(--paleBlue);
 }
+
 .container {
   max-width: 1440px;
   min-width: 375px;
   display: flex;
   height: 500px;
 }
+
 .box-result {
-  background: linear-gradient(
-    var(--lightSlateGradient),
-    var(--lightRoyalGradient)
-  );
+  background: linear-gradient(var(--lightSlateGradient),
+      var(--lightRoyalGradient));
   padding: 48px 16px;
   border-radius: 32px;
 
@@ -50,16 +51,16 @@ body {
 
   width: 50%;
 }
+
 .box-result h3 {
   color: var(--paleBlue);
   font-size: 1.4em;
 }
+
 .box-result .circle-result {
-  background: linear-gradient(
-    var(--violetBlueGradient),
-    var(--violetBlueGradient),
-    var(--persianBlueGradient)
-  );
+  background: linear-gradient(var(--violetBlueGradient),
+      var(--violetBlueGradient),
+      var(--persianBlueGradient));
 
   margin-top: 32px;
 
@@ -73,14 +74,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .box-result .circle-result h1 {
   color: var(--white);
   font-size: 3.5em;
   font-weight: 700;
 }
+
 .box-result .circle-result span {
   color: var(--lightLavander);
 }
+
 .box-result .text-result {
   display: flex;
   flex-direction: column;
@@ -91,17 +95,20 @@ body {
 
   gap: 24px;
 }
+
 .box-result .text-result h2 {
   color: var(--white);
   font-size: 2em;
 }
+
 .box-result .text-result p {
   text-align: center;
   font-size: 18px;
   width: 77%;
   color: var(--lightLavander);
-  font-weigth: 500;
+  font-weight: 500;
 }
+
 .box-summary {
   background-color: var(--white);
   width: 50%;
@@ -110,54 +117,74 @@ body {
   padding: 48px 0px 64px 48px;
   display: flex;
   flex-direction: column;
+  border-radius: 0px 32px 32px 0px;
 }
+
 .infos-summary {
   padding: 0px 24px 0px 0px;
 }
+
 .box-summary .infos-summary h2 {
   font-size: 24px;
   margin-bottom: 16px;
 }
+
 .box-summary .resume-summary {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-top: 32px;
 }
+
 .box-summary .resume-summary div {
   padding: 16px 8px;
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
-}
-.box-summary .resume-summary span {
-  color: var(--darkGrayBlue);
   font-weight: 800;
 }
+
+.box-summary .resume-summary p {
+  color: gray;
+}
+
+.box-summary .resume-summary span {
+  color: var(--darkGrayBlue);
+
+}
+
 .box-summary .resume-summary div:nth-child(1) {
   background-color: var(--lightRedLight);
 }
+
 .box-summary .resume-summary div:nth-child(2) {
   background-color: var(--orangeYellowLight);
 }
+
 .box-summary .resume-summary div:nth-child(3) {
   background-color: var(--greenTealLight);
 }
+
 .box-summary .resume-summary div:nth-child(4) {
   background-color: var(--cobaltBlueLight);
 }
+
 .box-summary .resume-summary div:nth-child(1) h4 {
   color: var(--lightRed);
 }
+
 .box-summary .resume-summary div:nth-child(2) h4 {
   color: var(--orangeYellow);
 }
+
 .box-summary .resume-summary div:nth-child(3) h4 {
   color: var(--greenTeal);
 }
+
 .box-summary .resume-summary div:nth-child(4) h4 {
   color: var(--cobaltBlue);
 }
+
 .box-summary .resume-summary button {
   padding: 12px 16px;
   border-radius: 32px;
@@ -165,7 +192,11 @@ body {
   color: var(--white);
   background-color: var(--darkGrayBlue);
   font-weight: 700;
-  letter-spacing: 1px;
   margin-top: 32px;
   height: 50px;
+  transition: .5s;
+}
+
+.box-summary .resume-summary button:hover {
+  background: linear-gradient(var(--lightSlateGradient), var(--lightRoyalGradient));
 }
