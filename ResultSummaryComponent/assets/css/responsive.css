@@ -1,8 +1,12 @@
 @media (min-width: 320px) {
     @media (max-width: 768px) {
+        body {
+            justify-content: flex-start;
+        }
         .container {
             flex-direction: column;
             align-items: center;
+            margin-top: 24px;
         }
 
         .box-result {
@@ -28,7 +32,6 @@
 
         .attribution {
             position: fixed;
-            bottom: 0;
             right: 0;
             margin: 8px 0px;
             z-index: 4;
